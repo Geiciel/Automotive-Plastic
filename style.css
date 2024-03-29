@@ -112,7 +112,7 @@ a {
 .serv {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 20px;
+    row-gap: 40px;
     justify-items: center;
     max-width: 1300px;
     margin: auto;
@@ -120,7 +120,7 @@ a {
 
 .serv > .item {
     background-color: #131313;
-    width: 375px;
+    width: 325px;
     height: 110px;
     text-align: center;
     padding: 10px;
@@ -177,6 +177,10 @@ footer {
 
 .list > ul > li > a {
     color: #41D9DB;
+}
+
+.list > ul > li > a:hover{
+    color: #0DF205;
 }
 
 .foo-logo {
