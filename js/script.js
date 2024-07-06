@@ -1,1 +1,0 @@
-window.alert ("Olá, meu nome é Geiciel e fiz esse site para complementar o meu TCC (Trabalho de conclusão de curso) de administração, onde eu criei uma oficina automotiva e para divulgar essa oficina eu fiz esse site.")
