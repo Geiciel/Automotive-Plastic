@@ -126,7 +126,15 @@ div.title > h3 {
 }
 
 .carroc {
+    margin: auto;
     margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    max-width: 1200px;
+}
+
+.slid {
+    padding-bottom: 60px;
 }
 
 .avaliacao {
@@ -219,7 +227,7 @@ footer {
 }
 
 .foo-logo {
-    background-image: url(../img/logo-transparente.png);
+    background-image: url(../img/logo.png);
     background-position: center;
     background-size: cover;
     height: 235px;

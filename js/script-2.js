@@ -3,7 +3,7 @@ var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
     loop: true,
     autoplay: {
-        delay: 5500,
+        delay: 4000,
         disableOnInteraction: false,
       },
     pagination: {
