@@ -180,6 +180,9 @@ div.title > h3 {
 
 .txt > .txt-p {
     color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    letter-spacing: 2px;
     font-weight: normal;
     height: 150px;
     margin: 5px 10px;
