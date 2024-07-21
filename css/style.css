@@ -170,6 +170,7 @@ footer {
 
 .list > h3{
     color: #0DF205;
+    font-size: 1.4rem;
     font-weight: normal;
 }
 
@@ -179,6 +180,7 @@ footer {
 
 .list > ul > li > a {
     color: #41D9DB;
+    font-size: 1.2rem;
 }
 
 .list > ul > li > a:hover{
@@ -192,6 +194,7 @@ footer {
     height: 235px;
     width: 215px;
     margin-left: 70px;
+    margin-top: 70px;
 }
 
 .locali {
@@ -200,4 +203,23 @@ footer {
     padding: 7px 0px;
     width: 600px;
     margin: auto;
+}
+
+.marca {
+    position: fixed;
+    left: 15px;
+    bottom: 10px;
+    color: #0DF205;
+    font-size: .7rem;
+}
+
+.marca > p > a {
+    color: #0DF205;
+    font-size: .7rem;
+    text-decoration: underline;
+}
+
+.marca > p > a:hover {
+    color: #41D9DB;
+    font-size: .7rem;
 }
