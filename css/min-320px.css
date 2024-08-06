@@ -174,42 +174,45 @@ div.title > h3 {
 
 /* Contato */
 .section {
-    background: none;
-    padding: 30px 0px;
+    padding: 6px 0px;
 }
 
 .ext {
+    display: none;
+}
+
+form {
+    margin: auto;
+}
+
+.form-2 {
+    display: block;
+    background-color: #00000077;
+    margin: 20px auto;
     width: 100%;
-    height: 100%;
-    border-radius: 0px;
+    padding: 10px 0px;
 }
 
-.ext-for {
-    width: 0px;
-    height: 0px;
-    border-radius: 0px;
+.form-2 > .h1-c {
+    margin: 30px 0px;
+    font-size: 1.6rem;
 }
 
-.div-for {
+textarea {
+    background-color: #151515c2;
+}
+
+.submit {
     width: 100%;
-    height: 100%;
-    padding: 0px;
-    border-radius: 0px;
 }
 
-.h1-c {
-    font-size: 1.4rem;
+.but {
+    margin: auto;
 }
 
-.label {
-    font-size: .7rem;
+.infor {
+    height: 400px;
 }
-
-.label-txt {
-    font-size: 1rem;
-}
-
-/* continua... */
 
 .foo-list-logo {
     display: grid;

@@ -139,6 +139,16 @@ div.title > h3 {
     max-width: 280px;
 }
 
+/* contato */
+
+.form-2 {
+    display: none;
+}
+
+.infor {
+    height: 400px;
+}
+
 .locali {
     width: 80%;
 }

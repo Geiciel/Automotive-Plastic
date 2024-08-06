@@ -172,6 +172,22 @@ div.title > h3 {
 
 /* Contato */
 
+.form-2 {
+    display: none;
+}
+
+.ext {
+    width: calc(100% - 6px);
+}
+
+.ex-for, .div-for {
+    width: calc(100% - 8px);
+}
+
+.infor {
+    height: 400px;
+}
+
 .foo-list-logo {
     display: grid;
     grid-template-columns: 1fr 1fr;
