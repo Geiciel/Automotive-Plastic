@@ -195,7 +195,7 @@ button {
 button:hover {
     color: #000;
     background-color: #0DF205;
-    transform: scale(1.06);
+    transform: scale(1.07);
 }
 
 button > p {
