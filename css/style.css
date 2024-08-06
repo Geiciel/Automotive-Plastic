@@ -112,10 +112,11 @@ a {
 }
 
 .serv {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 40px;
-    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: center;
     max-width: 1300px;
     margin: auto;
 }

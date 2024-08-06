@@ -67,6 +67,10 @@ section > h2 {
     font-weight: normal;
 }
 
+.new-car {
+    margin-top: 80px;
+}
+
 div.title {
     display: flex;
     width: 87%;
@@ -76,25 +80,21 @@ div.title {
 
 div.title > .div-sega-1 {
     border-bottom: #41D9DB solid 1px;
-    width: 80%;
-    height: 23px;
+    width: 77%;
+    height: 20px;
 }
 
 div.title > .div-sega-2 {
     border-bottom: #41D9DB solid 1px;
-    width: 79%;
-    height: 23px;
+    width: 75%;
+    height: 20px;
 }
 
 div.title > h3 {
     font-family: "Michroma", sans-serif;
     font-weight: normal;
     margin-right: 7px;
-    font-size: 1.7rem;
-}
-
-.new-car {
-    margin-top: 80px;
+    font-size: 1.4rem;
 }
 
 .row-gap-1 {
@@ -127,18 +127,6 @@ div.title > h3 {
     width: 33%;
 }
 
-.carroc {
-    margin: auto;
-    margin-top: 50px;
-    position: relative;
-    overflow: hidden;
-    max-width: 1200px;
-}
-
-.slid {
-    padding-bottom: 60px;
-}
-
 .avaliacao {
     height: 460px;
     width: 100vw;
@@ -154,6 +142,18 @@ div.title > h3 {
     font-weight: normal;
     font-size: 2.6rem;
     text-align: center;
+}
+
+.carroc {
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    max-width: 1200px;
+}
+
+.slid {
+    padding-bottom: 60px;
 }
 
 .slid-int {

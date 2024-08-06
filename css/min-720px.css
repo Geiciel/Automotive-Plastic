@@ -1,0 +1,144 @@
+
+
+.link {
+    font-size: 1.1em;
+    padding: 5px 15px;
+}
+
+/* Home */
+
+#text {
+    width: 400px;
+    left: 2%;
+}
+
+.h2-s > h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.serv {
+    row-gap: 10px;
+    column-gap: 10px;
+    max-width: 1300px;
+}
+
+.serv > .item {
+    width: calc(50% - 45px);
+    height: 100px;
+    padding: 10px;
+}
+
+.serv > .item > h3{
+    margin: 8px 0px;
+    font-size: 1.1em;
+}
+
+.serv > .item > p {
+    font-size: .9em;
+}
+
+/* Projetos */
+
+.sec-pro {
+    margin-top: 60px;
+}
+
+.h2-p {
+    font-size: 2rem;
+    text-align: start;
+}
+
+.new-car {
+    margin-top: 20px;
+}
+
+div.title {
+    width: 97%;
+}
+
+div.title > .div-sega-1 {
+    width: calc(100% - 144px);
+    height: 13px;
+}
+
+div.title > .div-sega-2 {
+    width: calc(100% - 157px);
+    height: 13px;
+}
+
+div.title > h3 {
+    margin-right: 7px;
+    font-size: 1rem;
+}
+
+.row-gap-1 {
+    width: 98%;
+    margin: auto;
+}
+
+.row-gap-1 > img {
+    width: 49%;
+}
+
+.old-car {
+    margin-top: 30px;
+}
+
+.row-gap-2 {
+    width: 98%;
+    margin: auto;
+}
+
+.row-gap-2 > img {
+    width: 49%;
+}
+
+.avaliacao {
+    height: 310px;
+}
+
+.avaliacao > h2 {
+    font-size: 2rem;
+}
+
+.carroc {
+    max-width: 710px;
+    margin-top: 10px;
+}
+
+.slid-int {
+    max-width: 600px;
+    flex-wrap: wrap;
+}
+
+.foto-txt {
+    margin-top: 5px;
+    max-width: calc(100% - 285px);
+}
+
+.perfil-fo > img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.txt > .nome {
+    font-size: .7rem;
+}
+
+.txt > .txt-p {
+    font-size: 1em;
+    height: 146px;
+    width: calc(100% - 10px);
+}
+
+.foto-term > img {
+    max-width: 280px;
+}
+
+.locali {
+    width: 80%;
+}

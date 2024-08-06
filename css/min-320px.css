@@ -1,0 +1,256 @@
+header {
+    height: 60px;
+}
+
+.div-logo {
+    margin-top: 2px;
+    margin-left: 0px;
+}
+
+.div-logo > img {
+    width: 90px;
+}
+
+nav {
+    margin-top: 25px;
+    width: calc(100% - 10px);
+}
+
+.link {
+    padding: 5px 7px;
+    font-size: .9em;
+}
+
+.foto {
+    height: 380px;
+    background-image: url(../img-cars/320px.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Home */
+
+#text {
+    max-width: 290px;
+    padding: 10px;
+    top: 80px;
+    left: 5px;
+}
+
+#text > h2 {
+    margin-bottom: 10px;
+    font-size: 1.6em;
+}
+
+#text > p {
+    font-size: 1em;
+}
+
+.h2-s {
+    font-size: 1.9em;
+}
+
+.serv {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 9px;
+    column-gap: 5px;
+    justify-content: center;
+    max-width: 370px;
+}
+
+.serv > .item {
+    width: calc(50% - 25px);
+    height: 70px;
+    text-justify: center;
+}
+
+.serv > .item > h3{
+    margin: 2px 0px;
+    font-size: .8em;
+}
+
+.serv > .item > p {
+    font-size: .7em;
+}
+
+/* Projetos */
+
+.sec-pro {
+    margin-top: 60px;
+}
+
+.h2-p {
+    font-size: 2rem;
+    text-align: start;
+}
+
+.new-car {
+    margin-top: 20px;
+}
+
+div.title {
+    width: 97%;
+}
+
+div.title > .div-sega-1 {
+    width: calc(100% - 144px);
+    height: 13px;
+}
+
+div.title > .div-sega-2 {
+    width: calc(100% - 157px);
+    height: 13px;
+}
+
+div.title > h3 {
+    margin-right: 7px;
+    font-size: 1rem;
+}
+
+.row-gap-1 {
+    width: 98%;
+    margin: auto;
+}
+
+.row-gap-1 > img {
+    width: 49%;
+}
+
+.old-car {
+    margin-top: 30px;
+}
+
+.row-gap-2 {
+    width: 98%;
+    margin: auto;
+}
+
+.row-gap-2 > img {
+    width: 49%;
+}
+
+.avaliacao {
+    height: 500px;
+}
+
+.avaliacao > h2 {
+    font-size: 2rem;
+}
+
+.carroc {
+    max-width: 315px;
+    margin-top: 10px;
+}
+
+.slid-int {
+    display: block;
+    max-width: 315px;
+}
+
+.foto-txt {
+    margin-top: 5px;
+}
+
+.perfil-fo > img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.txt > .nome {
+    font-size: .7rem;
+}
+
+.txt > .txt-p {
+    font-size: 1em;
+    height: 146px;
+    width: calc(100% - 10px);
+}
+
+.foto-term > img {
+    max-width: 316px;
+}
+
+/* Contato */
+.section {
+    background: none;
+    padding: 30px 0px;
+}
+
+.ext {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+}
+
+.ext-for {
+    width: 0px;
+    height: 0px;
+    border-radius: 0px;
+}
+
+.div-for {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    border-radius: 0px;
+}
+
+.h1-c {
+    font-size: 1.4rem;
+}
+
+.label {
+    font-size: .7rem;
+}
+
+.label-txt {
+    font-size: 1rem;
+}
+
+/* continua... */
+
+.foo-list-logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    width: 310px;
+    margin: auto;
+}
+
+.list {
+    margin-top: 50px;
+}
+
+.list > h3{
+    color: #0DF205;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.list > ul > li{
+    margin: 2px 0px;
+}
+
+.list > ul > li > a {
+    color: #41D9DB;
+    font-size: .9rem;
+}
+
+.foo-logo {
+    height: 135px;
+    width: 115px;
+    margin-left: 10px;
+    margin-top: 36px;
+}
+
+.locali {
+    font-size: .7em;
+    padding: 2px 0px;
+    width: 290px;
+}
+
+.marca {
+    display: none;
+}
