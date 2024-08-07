@@ -210,10 +210,6 @@ textarea {
     margin: auto;
 }
 
-.infor {
-    height: 400px;
-}
-
 .foo-list-logo {
     display: grid;
     grid-template-columns: 1fr 1fr;
