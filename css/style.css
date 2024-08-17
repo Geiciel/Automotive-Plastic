@@ -56,7 +56,7 @@ a {
 }
 
 .foto {
-    height: 720px;
+    height: calc(100dvh - 140px);
     width: 100vw;
     background-image: url(../img-cars/wallpaperflare.com_wallpaper.jpg);
     background-size: cover;

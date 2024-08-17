@@ -37,7 +37,7 @@
                 <a href="projetos.html">
                     <div class="link">Projetos</div>
                 </a>
-                <a href="html/contato.html">
+                <a href="#">
                     <div class="link contato">Contato</div>
                 </a>
             </div><!--div-nav-->
@@ -48,28 +48,28 @@
             <div class="ext">
                 <div class="ex-for">
                     <div class="div-for">
-                        <h1 class="h1-c michroma-regular">Entre em contato</h1>
                         <div class="form">
-                            <form action="">
+                            <form action="https://formsubmit.co/ajax/automotiveplastictcc@gmail.com" method="POST" data-form>
+                                <h1 class="h1-c michroma-regular">Entre em contato</h1>
                                 <div class="input">
                                     <label for="inome" class="label">Nome</label>
-                                    <input type="text" name="nome" id="inome" required>
+                                    <input type="text" name="nome" id="inome" required placeholder="Seu nome">
                                 </div>
                                 <div class="input">
                                     <label for="iemail" class="label">E-mail</label>
-                                    <input type="email" name="email" id="iemail" required>
+                                    <input type="email" name="email" id="iemail" required placeholder="Seu e-mail">
                                 </div>
                                 <div class="input">
                                     <label for="itelef" class="label">Telefone</label>
-                                    <input type="tel" name="telef" id="itelef" required>
+                                    <input type="tel" name="telef" id="itelef" required placeholder="Seu Número">
                                 </div>
                                 <div class="box-text">
                                     <label for="itext" class="label-txt">Projeto</label>
-                                    <textarea name="text" id="itext" rows="6" cols="31" placeholder="Descrição do seu projeto"></textarea>
+                                    <textarea name="text" id="itext" rows="6" cols="31" placeholder="Descrição do seu projeto" required></textarea>
                                 </div>
                                 <div class="submit">
                                     <div class="but">
-                                        <button type="submit">
+                                        <button type="submit" data-button>
                                             <p>Enviar</p>
                                             <i class="bi bi-send"></i>
                                         </button>
@@ -82,18 +82,18 @@
             </div><!-- ext -->
             <div class="form-2">
                 <h1 class="h1-c michroma-regular">Entre em contato</h1>
-                <form action="">
+                <form action="https://formsubmit.co/ajax/automotiveplastictcc@gmail.com" method="POST" data-form>
                     <div class="input">
                         <label for="inome" class="label">Nome</label>
-                        <input type="text" name="nome" id="inome" required>
+                        <input type="text" name="nome" id="inome" required placeholder="Seu nome">
                     </div>
                     <div class="input">
                         <label for="iemail" class="label">E-mail</label>
-                        <input type="email" name="email" id="iemail" required>
+                        <input type="email" name="email" id="iemail" required placeholder="Seu e-mail">
                     </div>
                     <div class="input">
                         <label for="itelef" class="label">Telefone</label>
-                        <input type="tel" name="telef" id="itelef" required>
+                        <input type="tel" name="telef" id="itelef" required placeholder="Seu Número">
                     </div>
                     <div class="box-text">
                         <label for="text" class="label-txt">Projeto</label>
@@ -101,7 +101,7 @@
                     </div>
                     <div class="submit">
                         <div class="but">
-                            <button type="submit">
+                            <button type="submit" data-button>
                                 <p>Enviar</p>
                                 <i class="bi bi-send"></i>
                             </button>
@@ -167,5 +167,6 @@
 <div class="marca">
     <p>Feito por <a href="https://github.com/Geiciel">Geiciel Marques</a></p>
 </div>
+<script src="../js/submit.js"></script>
 </body>
 </html>

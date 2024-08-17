@@ -87,7 +87,7 @@ a {
     position: relative;
     width: 408px;
     height: 617px;
-    background: #000000;
+    background: #131313;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -108,8 +108,8 @@ h1 {
     font-size: 2rem;
 }
 
-.form {
-    margin-top: 35px;
+.h1-c {
+    margin-bottom: 30px;
 }
 
 .label {
@@ -143,7 +143,7 @@ input {
     outline: none;
     background-color: transparent;
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-weight: normal;
 }
 
@@ -196,6 +196,44 @@ button:hover {
     color: #000;
     background-color: #0DF205;
     transform: scale(1.07);
+}
+
+button:disabled {
+    cursor: not-allowed;
+    background-color: #353535;
+    color: #000;
+    border: solid 2px #000000;
+}
+
+.success, .error{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.success {
+    color: #0DF205;
+}
+
+.error {
+    color: #41D9DB;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.retorno {
+    margin-top: 40%;
+}
+
+.enviado {
+    font-size: 10rem;
+    color: #0DF205;
+    padding: 0% 30%;
+}
+
+.erro {
+    font-size: 10rem;
+    color: #41D9DB;
+    padding: 0% 30%;
 }
 
 button > p {
