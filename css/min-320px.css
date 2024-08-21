@@ -5,6 +5,7 @@ header {
 .div-logo {
     margin-top: 2px;
     margin-left: 0px;
+    z-index: 1;
 }
 
 .div-logo > img {
@@ -139,7 +140,7 @@ div.title > h3 {
 }
 
 .carroc {
-    max-width: 315px;
+    max-width: 390px;
     margin-top: 10px;
 }
 
@@ -174,7 +175,7 @@ div.title > h3 {
 
 /* Contato */
 .section {
-    padding: 6px 0px;
+    padding: 0px 0px 1px 0px;
 }
 
 .ext {
@@ -188,6 +189,7 @@ form {
 .form-2 {
     display: block;
     background-color: #00000077;
+    backdrop-filter: blur(3px);
     margin: 20px auto;
     width: 100%;
     padding: 10px 0px;
@@ -199,6 +201,7 @@ form {
 }
 
 textarea {
+    backdrop-filter: blur(4px);
     background-color: #151515c2;
 }
 

@@ -87,7 +87,7 @@ a {
     position: relative;
     width: 408px;
     height: 617px;
-    background: #131313;
+    background: #000000;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -266,10 +266,11 @@ button > i {
     position: absolute;
     content: '';
     height: 150%;
-    width: 40%;
+    width: 30%;
     transform: rotate(36deg);
     background-color: #0DF205;
     margin: auto;
+    filter: blur(30px);
     animation: rotacoa 3.5s linear infinite;
 
 }

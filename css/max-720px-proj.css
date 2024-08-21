@@ -68,7 +68,7 @@ div.title > h3 {
 }
 
 .carroc {
-    max-width: 560px;
+    max-width: 720px;
     margin-top: 10px;
 }
 
@@ -100,16 +100,6 @@ div.title > h3 {
 
 .foto-term > img {
     max-width: 460px;
-}
-
-/* contato */
-
-.form-2 {
-    display: none;
-}
-
-.infor {
-    height: 400px;
 }
 
 .locali {
