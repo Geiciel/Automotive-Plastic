@@ -1,5 +1,3 @@
-window.alert ('Se você quiser, você pode deixar uma mensagem para o desenvolvedor ao enviar a descrição do projeto')
-
 class FormSubmit {
     constructor (settings) {
         this.settings = settings;
