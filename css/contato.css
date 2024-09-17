@@ -262,17 +262,26 @@ button > i {
 
 /* Animação */
 
-.ex-for::before {
+.rotac {
     position: absolute;
-    content: '';
+    left: auto;
     height: 150%;
-    width: 30%;
+    width: 50%;
     transform: rotate(36deg);
-    background-color: #0DF205;
-    margin: auto;
-    filter: blur(30px);
     animation: rotacoa 3.5s linear infinite;
+}
 
+.rotac-1, .rotac-2 {
+    height: 50%;
+    width: 100%;
+}
+
+.rotac-1 {
+    background: linear-gradient(to left, #09ff00, #09ff006b, transparent);
+}
+
+.rotac-2 {
+    background: linear-gradient(to right, #09ff00, #09ff006b, transparent);
 }
 
     @keyframes rotacoa {
