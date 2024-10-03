@@ -46,6 +46,10 @@ nav {
     font-size: 1em;
 }
 
+.vmv > h2 {
+    font-size: 1.2rem;
+}
+
 .h2-s {
     font-size: 1.9em;
 }
@@ -67,7 +71,7 @@ nav {
     font-size: 1em;
 }
 
-.serv > .item > p {
+.serv > .item > p, .vmv > P {
     font-size: .9em;
 }
 

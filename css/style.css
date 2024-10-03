@@ -88,6 +88,44 @@ a {
     font-weight: normal;
 }
 
+.mvv {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: center;
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 0px 8px 0px 8px;
+}
+
+.vmv {
+    max-width: 325px;
+    padding: 15px;
+    background-color: #131313;
+    transition: 0.8s;
+    border-left: solid 4px #0DF205;
+}
+
+.vmv:hover {
+    transform: scale(1.08);
+    transition: 1s;
+}
+
+.vmv > h2 {
+    color: #0DF205;
+    font-family: "Michroma", sans-serif;
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+}
+
+.vmv > p {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
 .h2-s {
     font-family: "Michroma", sans-serif;
     font-weight: 400;
