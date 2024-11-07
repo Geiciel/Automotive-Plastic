@@ -1,3 +1,20 @@
+header {
+    height: 95px;
+}
+
+.div-logo {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.div-logo > img {
+    width: 100px;
+}
+
+nav {
+    width: 76%;
+    margin-top: 52px;
+}
 
 
 .link {
